@@ -1,0 +1,178 @@
+body{
+    margin: 0;
+}
+
+.clear-class{
+    clear: both;
+}
+
+.submit-button{
+    background-color: rgb(231, 91, 9);
+    color: white;
+}
+
+#container{
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+#main-header{
+    background-color: gray;
+    min-height: 80px;
+    color: white;
+    border-bottom: 3px rgb(231, 91, 9) solid;
+
+    box-sizing: border-box;
+}
+
+
+#main-header a{
+    color: white;
+    text-decoration: none;
+}
+
+#main-header a:hover{
+    font-weight: bold;
+}
+
+#main-header h1{
+    text-align: center;
+    margin-top: 20px;
+    float: left;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+#main-header ul{
+    margin-top: 32px;
+    list-style: none;
+    float: right;
+}
+
+#main-header li{
+    text-align: center;
+    display: inline;
+    padding: 0 20px 0 40px;
+}
+
+#main-header .first-word, #main-header .first-word a{
+    color: rgb(231, 91, 9)
+}
+
+
+#main-section{
+
+    min-height: 400px;
+    background-image: url("/Users/vinay_jain/Desktop/Projects/FirstPracticeProject/images/laptop.jpeg");
+
+    background-position: top center;
+
+    color: white;
+    text-decoration: solid;
+
+    position: absolute;
+    box-sizing: border-box;
+
+}
+
+#main-section h1{
+    font: bold italic 40px Arial;
+    position: relative;
+    margin-top: 100px;
+    margin-left: 15px;
+    margin-bottom: 50px;
+    text-align: center;
+    box-sizing: border-box;
+
+}
+
+#main-section p{
+    font: normal 20px Arial;
+    margin-left: 10px;
+    text-align: center;
+    box-sizing: border-box;
+
+}
+
+#second-section{
+    position: relative;
+    margin-top: 400px;
+    background-color: gray;
+    color: white;
+    min-height: 60px;
+
+}
+
+#second-section h2{
+    margin-top: 15px;
+    float: left;
+}
+
+#second-section form{
+    float: right;
+    margin-top: 18px;
+}
+
+#second-section #email{
+    width: 180px;
+    height: 20px;
+}
+
+#second-section .submit-button{
+    width: 100px;
+    height: 26px;
+    border-style: none;
+    
+}
+
+#third-section .photo_box{
+    width: 33.33%;
+    float: left;
+    height: 400px;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#third-section .photo_box h3, #third-section .photo_box p{
+    text-align: center;
+}
+
+#third-section .photo_box img{
+    width: 140px;
+    height: 150px;
+}
+
+#footer{
+    background-color: rgb(231, 91, 9);
+    color: white;
+    text-align: center;
+}
+
+@media(max-width: 768px){
+    #main-header h1, #main-header ul{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    #second-section h2, #second-section form{
+        margin: 10px auto;
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    #third-section .photo_box{
+        float: none;
+        width: 100%;
+        height: 320px;
+        border: 1px solid green;
+    }
+}
